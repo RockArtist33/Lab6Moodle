@@ -1,0 +1,40 @@
+.Header {
+    position:absolute;
+    background-color: #f3f3f3;
+    height: 45px;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+
+.Navbar {
+    height: inherit;
+    
+}
+.Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    font-size: 20px;
+    background-color:inherit
+
+}
+
+.Navbar ul li {
+    float: left;
+}
+
+.Navbar ul li a{
+    display:block;
+    text-decoration: none;
+    transition: background-color 0.1s ease-out 100ms;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding:10px 10px 10px 10px;
+    color: rgb(100,100,100);
+
+}
+
+.Navbar ul li a:hover{
+    background-color: #fdfdfd
+}
