@@ -38,3 +38,32 @@
 .Navbar ul li a:hover{
     background-color: #fdfdfd
 }
+
+.App_Button {
+    display:block;
+    position:absolute;
+    left:calc(100vw - 50px);
+    top:3px;
+    width:40px;
+    height:40px;
+    background-color: transparent;
+    transition: background-color 0.1s ease-out 100ms;
+    border-radius:25px;
+}
+
+.App_Image {
+    position: relative;
+    background-color: transparent;
+    
+}
+
+.App_Button:hover {
+    background-color: rgb(255, 255, 255)
+}
+
+.App_List {
+    width: 300px;
+    height: 300px;
+    border-top:0pt;
+    border-color: rgb(0, 0, 0);
+}
