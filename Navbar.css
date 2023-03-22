@@ -64,8 +64,9 @@
 .App_List_Box {
     display:block;
     position:absolute;
+    overflow:hidden scroll;
     right:10px;
-    width: 200px;
+    width: 250px;
     height: 300px;
     background-position-x: 200px;
     background-color: rgb(255, 255, 255);
@@ -76,16 +77,23 @@
 
 }
 
+.App_List ul{
+    width:auto;
+    align-self: center;
+    padding:10px;
+}
 
 
 .App_Object{
     text-decoration: none;
-    padding:2px;
+    padding-left:25px;
+    padding-right:30px;
+    padding-bottom:15px;
     font-family:inherit;
     text-align: center;
     display:inline-block;
     list-style: none;
-    width:50px;
+    width:55px;
     height:80px;
 
 }
