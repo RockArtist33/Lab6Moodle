@@ -57,6 +57,11 @@
     
 }
 
+.App_Image img {
+    position:absolute;
+}
+
+
 .App_Button:hover {
     background-color: rgb(255, 255, 255)
 }

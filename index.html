@@ -20,7 +20,7 @@
                 <div class="Apps">
                     <div class="App_Button" id="AppButton">
                         <div class="Apps_Image">
-                            <object data="drawing.svg" width="40" height="40"></object>
+                            <img src="./drawing.svg" width="40" height="40">
                         </div>
                     </div>
                 </div>
@@ -44,16 +44,19 @@
             Testing
         </div>
         <script>
-            let AppButton = document.querySelector("#AppButton");
+            alert("started")
+            const AppButton = document.getElementsByClassName("Apps_Image")[0];
+            const AppBox = document.getElementById("AppBox");
 
-            document.body.addEventListener("click",function(event){
-                if(AppButton.contains(event.target)){
-                    document.querySelector("#AppBox").style.visibility = "visible";
-                    alert("seen")
-                } else {
-                    document.querySelector("#AppBox").style.visibility = "collapse";
+            AppButton.addEventListener("click", (e) => {
+                if (AppBox.style.visibility == "collapse") {
+                    console.log("test")
+                    AppBox.style.visibility = "visible"
                 }
-                
+                else {
+                    AppBox.style.visibility = "collapse"
+                }
+
             })
         </script>
     </body>
