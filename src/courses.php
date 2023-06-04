@@ -40,12 +40,10 @@
                 </div>
         </div>
         <div class="courses_list">
-            <p style="padding-top: 100px;">
-                hello
-            </p>
+            <div class="courses_box">
+            
+            </div>
         </div>
-        <?php
-        ?>
     </body>
         <script>
             const AppButton = document.getElementsByClassName("Apps_Image")[0];
