@@ -4,9 +4,9 @@
     <head>
         <link rel="stylesheet" href="../main.css">
         <link rel="stylesheet" href="../Navbar.css">
-        
+        <link rel="stylesheet" href="../course_pages.css">
     </head>
-    <body>
+    <body onload="resizewindow()">
         <div class="Header">
             <div class="Navbar">
                 <ul>
@@ -41,6 +41,16 @@
             </div>
         </div>
         <div class="Body">
+            <div>
+                <div class="item_body">
+                    <div class="item_box">
+                        <a>
+                            <img>
+                            <h1></h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <script>
             const AppButton = document.getElementsByClassName("Apps_Image")[0];
@@ -57,5 +67,16 @@
 
             })
         </script>
+        <script>
+            function resizewindow() {
+                var w = window.innerWidth;
+                var h = window.innerHeight;
+                addEventListener("resize", (event) => {if ((w < 600) || (h < 600)) {
+                    window.resizeTo(600,600);
+                }});
+    
+            }
+        </script>
     </body>
+    
 </html>

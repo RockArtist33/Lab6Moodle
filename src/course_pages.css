@@ -1,0 +1,11 @@
+.item_body {
+    margin: auto;
+    margin-top:50px;
+    width:80%
+}
+
+.item_box {
+    background-color: red;
+    width:100%;
+
+}
