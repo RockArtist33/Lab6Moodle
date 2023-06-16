@@ -43,12 +43,16 @@
         <div class="Body">
             <div>
                 <div class="item_body">
-                    <div class="item_box">
-                        <a>
-                            <img>
-                            <h1></h1>
-                        </a>
-                    </div>
+                    <ul class="Item_List">
+                        <li>
+                            <a>
+                                <div class="item_box">
+                                    <img>
+                                    <h1></h1>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -66,16 +70,6 @@
                 }
 
             })
-        </script>
-        <script>
-            function resizewindow() {
-                var w = window.innerWidth;
-                var h = window.innerHeight;
-                addEventListener("resize", (event) => {if ((w < 600) || (h < 600)) {
-                    window.resizeTo(600,600);
-                }});
-    
-            }
         </script>
     </body>
     

@@ -1,11 +1,19 @@
 .item_body {
     margin: auto;
+    min-width: 600px;
     margin-top:50px;
-    width:80%
+    width:60%;
+    height:100%;
 }
 
 .item_box {
     background-color: red;
     width:100%;
 
+}
+
+.Item_List {
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
 }
